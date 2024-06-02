@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;    
+
+#nav-link{
+    transition: all .3s;
+}
+#about__search__btn{
+    transition: all .3s;
+}
+#about__search__card:hover #about__search__btn{
+    top: 20px;
+    right: 20px;
+}
+#details__2{
+border-radius: 0px 22.5px 0px 0px;
+width: 100%;
+gap: 47px;
+}
+#details{
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    transition: all .3s;
+}
+#about__search__card:hover #details{
+    left: 0;
+}
+.plan__center__card{
+    border: 2px solid transparent;
+    transition: all .3s;
+}
+.plan__center__card:hover{
+    border: 2px solid #EAEAEA;
+}
+.default__transtition{
+    transition: all .3s;
+}
