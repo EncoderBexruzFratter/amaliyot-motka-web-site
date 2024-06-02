@@ -525,6 +525,15 @@ video {
 .top-\[-20px\] {
   top: -20px;
 }
+.left-\[500px\] {
+  left: 500px;
+}
+.left-\[100px\] {
+  left: 100px;
+}
+.left-\[00px\] {
+  left: 00px;
+}
 .z-\[-1\] {
   z-index: -1;
 }
@@ -643,6 +652,12 @@ video {
 }
 .h-full {
   height: 100%;
+}
+.h-\[100vh\] {
+  height: 100vh;
+}
+.max-h-\[1000px\] {
+  max-height: 1000px;
 }
 .min-h-\[1187px\] {
   min-height: 1187px;
